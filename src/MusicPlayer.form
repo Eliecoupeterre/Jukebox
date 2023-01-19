@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="MusicPlayer">
+  <grid id="27dc6" binding="MusicPlayer" layout-manager="GridLayoutManager" row-count="6" column-count="8" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="798" height="417"/>
+    </constraints>
+    <properties>
+      <background color="-13486793"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="278ad" class="javax.swing.JButton" binding="menuBtn">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="115" height="38"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13486793"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="false"/>
+          <horizontalAlignment value="2"/>
+          <icon value="ressources/menu.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="cbe" class="javax.swing.JButton" binding="loopBtn">
+        <constraints>
+          <grid row="0" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-13486793"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="false"/>
+          <icon value="ressources/loop.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="c21fd" class="javax.swing.JButton" binding="previousBtn">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="115" height="70"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13486793"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="false"/>
+          <icon value="ressources/rewind.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="17efe" class="javax.swing.JButton" binding="nextBtn">
+        <constraints>
+          <grid row="5" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-13486793"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="false"/>
+          <icon value="ressources/forward-button.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="725b5" class="javax.swing.JComboBox" binding="playlistSelect">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="4" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="fd718" class="javax.swing.JButton" binding="pauseBtn">
+        <constraints>
+          <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-13486793"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="false"/>
+          <icon value="ressources/video-pause-button.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="3bb2d" class="javax.swing.JButton" binding="playBtn">
+        <constraints>
+          <grid row="5" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-13486793"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="false"/>
+          <icon value="ressources/play-button.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="7f414" class="javax.swing.JLabel" binding="actualTime">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-1"/>
+          <text value="Label"/>
+        </properties>
+      </component>
+      <component id="888ed" class="javax.swing.JLabel" binding="endTime">
+        <constraints>
+          <grid row="2" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-1"/>
+          <text value="Label"/>
+        </properties>
+      </component>
+      <component id="3ffe5" class="javax.swing.JProgressBar" binding="timeprogressBar">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="4" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-6801347"/>
+          <indeterminate value="false"/>
+          <maximum value="1000"/>
+          <value value="0"/>
+        </properties>
+      </component>
+      <component id="7c0f6" class="javax.swing.JLabel" binding="songName">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-1"/>
+          <text value="Label"/>
+        </properties>
+      </component>
+      <component id="18ca1" class="javax.swing.JLabel" binding="previoussongName">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-1"/>
+          <text value="Label"/>
+        </properties>
+      </component>
+      <component id="7aad2" class="javax.swing.JLabel" binding="nextsongName">
+        <constraints>
+          <grid row="4" column="5" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-1"/>
+          <text value="Label"/>
+        </properties>
+      </component>
+      <component id="f5a79" class="javax.swing.JSlider" binding="volumeSlider">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-13486793"/>
+          <maximum value="100"/>
+          <orientation value="1"/>
+          <paintLabels value="false"/>
+          <value value="50"/>
+          <valueIsAdjusting value="false"/>
+        </properties>
+      </component>
+      <component id="80039" class="javax.swing.JButton" binding="volumeDown">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="9" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="115" height="24"/>
+          </grid>
+        </constraints>
+        <properties>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="false"/>
+          <horizontalAlignment value="2"/>
+          <horizontalTextPosition value="2"/>
+          <icon value="ressources/volume-down.png"/>
+          <text value=""/>
+        </properties>
+        <clientProperties>
+          <hideActionText class="java.lang.Boolean" value="false"/>
+        </clientProperties>
+      </component>
+      <component id="c3aed" class="javax.swing.JButton" binding="volumeUp">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="10" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="115" height="24"/>
+          </grid>
+        </constraints>
+        <properties>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="false"/>
+          <horizontalAlignment value="2"/>
+          <horizontalTextPosition value="4"/>
+          <icon value="ressources/volume-up.png"/>
+          <iconTextGap value="0"/>
+          <text value=""/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="EditPlaylist">
+  <grid id="27dc6" binding="EditPlaylist" layout-manager="GridLayoutManager" row-count="5" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="272" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-13486793"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="3b695" class="javax.swing.JButton" binding="menuBtn">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="9" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-13486793"/>
+          <borderPainted value="false"/>
+          <icon value="ressources/menu.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="c7de3" class="javax.swing.JButton" binding="addmusicBtn">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-13486793"/>
+          <borderPainted value="false"/>
+          <icon value="ressources/addmusic.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="371dd" class="javax.swing.JButton" binding="uplistBtn">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-13486793"/>
+          <borderPainted value="false"/>
+          <icon value="ressources/up-arrow.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="78189" class="javax.swing.JButton" binding="deleteBtn">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-13486793"/>
+          <borderPainted value="false"/>
+          <icon value="ressources/delete.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="49f7d" class="javax.swing.JButton" binding="downlistBtn">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-13486793"/>
+          <borderPainted value="false"/>
+          <icon value="ressources/down-arrow.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="aeaa1" class="javax.swing.JList" binding="playList">
+        <constraints>
+          <grid row="2" column="0" row-span="3" col-span="2" vsize-policy="6" hsize-policy="2" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13486793"/>
+          <foreground color="-1"/>
+          <selectionBackground color="-6801347"/>
+          <selectionForeground color="-1"/>
+          <selectionMode value="0"/>
+          <valueIsAdjusting value="true"/>
+        </properties>
+        <clientProperties>
+          <List.isFileList class="java.lang.Boolean" value="true"/>
+        </clientProperties>
+      </component>
+      <component id="7cebc" class="javax.swing.JComboBox" binding="playlistSelect">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+    </children>
+  </grid>
+</form>
